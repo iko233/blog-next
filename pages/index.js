@@ -15,7 +15,7 @@ export default function Home() {
     <div>
       <ConfigProvider locale={zhCN}>
         <Layout>
-            <MyHeader/>    
+            <MyHeader key='1'/>    
           <div className={styles.mainBox}>
             <MyContent/>
             <MyAside/>
