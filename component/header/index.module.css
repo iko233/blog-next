@@ -1,0 +1,21 @@
+.headerMenuPc{
+    float: right;
+}
+@media (min-width:850px) {
+    .headerMenuPhone{
+        display: none;
+    } 
+}
+
+@media (max-width: 850px) {
+    .headerMenuPc{
+      display: none;
+    }
+    .headerMenuPhone{
+        width: 100%;
+    }
+    .myHeader{
+        width: 100%;
+        padding-left: 10px;
+    }
+}
